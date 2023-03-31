@@ -1,0 +1,39 @@
+img{
+    width:48px;
+    height:48px; 
+  }
+  .hidden{
+    display: none;
+  } 
+  .container{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+  button{
+    margin: 7px;
+    padding: 5px 10px;
+  }
+  button:first-child{
+    background-color: yellow;
+    color: red;
+    border:none;
+  }
+  
+  button:last-child{
+    background-color: blue;
+    color: yellow;
+    border:none;
+  }
+  
+  button:nth-child(2){
+    background-color: red;
+    color: green;
+    border:none;
+  }
+  
+  
+  
